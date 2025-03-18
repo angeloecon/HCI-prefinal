@@ -8,6 +8,20 @@ window.addEventListener('scroll', () => {
 })
 
 
+
+const currentWidth = window.innerWidth;
+const btnLeft = document.querySelectorAll('.btn-left');
+btnLeft.forEach(element => {
+  element.style.transform = `translateX(-${currentWidth}%)`;
+});
+
+const btnRight = document.querySelectorAll('.btn-right');
+btnRight.forEach(element => {
+  element.style.transform = `translateX(${currentWidth}%)`;
+});
+
+
+
 function animateElements(element) {
   let image;
   if (element.classList.contains('sub-details')) {
