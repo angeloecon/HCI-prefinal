@@ -456,11 +456,11 @@ footer {
 }
 
 .abt-bg-2{
-  background-image: url("/Assets/Images/1222880.jpg");
+  background-image: url("./Assets/Images/1222880.jpg");
 }
 
 .abt-bg-3{
-  background-image: url("/Assets/Images/caption-pro-biker-conquering-mountain-terrains-h6wz8wfkkk3nas51.jpg");
+  background-image: url("./Assets/Images/caption-pro-biker-conquering-mountain-terrains-h6wz8wfkkk3nas51.jpg");
 }
 
 .abt-bg-1, .abt-bg-2, .abt-bg-3{
