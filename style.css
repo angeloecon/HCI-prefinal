@@ -429,13 +429,13 @@ footer {
   transition: opacity 1s ease;
 }
 
-.btn-left{
+/* .btn-left{
   transform: translateX(-500%);
-}
+} */
 
-.btn-right{
+/* .btn-right{
   transform: translateX(500%);
-}
+} */
 /* about */
 
 .about-heading{
